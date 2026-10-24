@@ -1,0 +1,48 @@
+{
+  "seed": 42,
+  "period": [
+    "2025-10-01",
+    "2026-09-30"
+  ],
+  "files": {
+    "clean": "invoices_clean.xlsx",
+    "with_issues": "invoices_with_issues.xlsx",
+    "bank": "bank_statement.csv"
+  },
+  "planted_in_issues_file": {
+    "missing_month": "2026-07",
+    "duplicate_invoice_numbers": [
+      "INV-11256",
+      "INV-11854"
+    ],
+    "buyer_name_variants": {
+      "Al-Raha Supermarkets": [
+        "AL-RAHA SUPERMARKETS",
+        "Al Raha Supermarkets",
+        "Al-Raha Supermarket",
+        "Al-Raha Supermarkets Co. "
+      ],
+      "Najd Fresh Market": [
+        "NAJD FRESH MARKET",
+        "Najd Fresh Mkt"
+      ]
+    }
+  },
+  "present_in_both_files": {
+    "dominant_buyer": "Al-Raha Supermarkets",
+    "dominant_buyer_revenue_share": 0.395,
+    "top3_buyers_revenue_share": 0.58,
+    "invoices_without_bank_payment": [
+      "INV-10476",
+      "INV-11569",
+      "INV-10465",
+      "INV-11961",
+      "INV-10823",
+      "INV-10958"
+    ]
+  },
+  "totals_clean_file": {
+    "invoices": 2766,
+    "revenue_excl_vat_sar": 15573740.36
+  }
+}

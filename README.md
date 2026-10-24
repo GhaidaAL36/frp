@@ -2,7 +2,7 @@
 
 A prototype that turns a wholesaler's invoices and bank statement into a clean, checked package, so a bank analyst can reach a financing decision from one page instead of reviewing raw files.
 
-**Live demo:** <add the Streamlit link here>
+**Live demo:** https://frpdemo.streamlit.app/
 
 ## What it does
 
